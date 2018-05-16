@@ -1,8 +1,6 @@
-footer{
+footer {
     background: url(img/footer.png) no-repeat;
-    /*-moz-background-size: 100%;*/
-    -webkit-background-size: 100%;
-    /*-o-background-size: 100%;*/
+    background-size: 100%;
     width: 1200px;
     height: 469px;
     margin: 0 auto;
@@ -11,42 +9,52 @@ footer{
     flex-direction: column;
     justify-content: space-around;
 }
-.block img{
+
+.block img {
     width: 35px;
     height: 35px;
     text-align: center;
 }
-.img{
+
+.img {
     text-align: center;
     width: 50%;
 }
-.block .img2{
+
+.block .img2 {
     width: 50%;
     height: 35px;
     text-align: center;
 }
-.img2 img{
+
+.img2 img {
     width: 35px;
     height: 25px;
 }
-.inf{
+
+.inf {
     display: flex;
     justify-content: space-around;
 }
-h3{
+
+h3 {
     color: white;
 }
-.block span{
+
+.block span {
     color: #959595;
 }
-.block_md{
+
+.block_md {
     text-align: center;
 }
-.commun{
+
+.commun {
     display: flex;
     justify-content: center;
 }
-.commun input{
+
+.commun input {
     width: 150px;
     height: 23px;
     background-color: #404447;
@@ -54,7 +62,8 @@ h3{
     text-indent: 5px;
     color: white;
 }
-.commun button{
+
+.commun button {
     height: 25px;
     width: 150px;
     background-color: #f4873e;
@@ -62,18 +71,21 @@ h3{
     color: white;
     font-weight: bold;
 }
-.anot{
+
+.anot {
     color: #ebebeb;
     text-align: center;
     font-size: 13px;
 }
-.icon{
+
+.icon {
     margin: 0 auto;
     width: 200px;
     display: flex;
     justify-content: space-between;
 }
-.icon div{
+
+.icon div {
     width: 30px;
     height: 30px;
     background-color: red;
