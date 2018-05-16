@@ -1,0 +1,92 @@
+footer {
+    background: url(img/footer.png) no-repeat;
+    background-size: 100%;
+    width: 1200px;
+    height: 469px;
+    margin: 0 auto;
+    font-family: Arial;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.block img {
+    width: 35px;
+    height: 35px;
+    text-align: center;
+}
+
+.img {
+    text-align: center;
+    width: 50%;
+}
+
+.block .img2 {
+    width: 50%;
+    height: 35px;
+    text-align: center;
+}
+
+.img2 img {
+    width: 35px;
+    height: 25px;
+}
+
+.inf {
+    display: flex;
+    justify-content: space-around;
+}
+
+h3 {
+    color: white;
+}
+
+.block span {
+    color: #959595;
+}
+
+.block_md {
+    text-align: center;
+}
+
+.commun {
+    display: flex;
+    justify-content: center;
+}
+
+.commun input {
+    width: 150px;
+    height: 23px;
+    background-color: #404447;
+    border: none;
+    text-indent: 5px;
+    color: white;
+}
+
+.commun button {
+    height: 25px;
+    width: 150px;
+    background-color: #f4873e;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+.anot {
+    color: #ebebeb;
+    text-align: center;
+    font-size: 13px;
+}
+
+.icon {
+    margin: 0 auto;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon div {
+    width: 30px;
+    height: 30px;
+    background-color: red;
+}
