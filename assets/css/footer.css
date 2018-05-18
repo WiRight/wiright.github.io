@@ -9,7 +9,7 @@ footer {
     flex-direction: column;
     justify-content: space-around;
 }
-.block img {
+.block_inf img {
     width: 35px;
     height: 35px;
     text-align: center;
@@ -20,7 +20,7 @@ footer {
     width: 50%;
 }
 
-.block .img2 {
+.block_inf .img2 {
     width: 50%;
     height: 35px;
     text-align: center;
@@ -40,11 +40,11 @@ h3 {
     color: white;
 }
 
-.block div {
+.block_inf div {
     color: #959595;
 }
 
-.block_md {
+.block_medium {
     text-align: center;
 }
 
@@ -77,7 +77,7 @@ h3 {
     font-size: 13px;
 }
 
-.b_icon {
+.block_icon {
     margin: 0 auto;
     width: 200px;
     height: 40px;
