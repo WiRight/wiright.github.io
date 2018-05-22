@@ -22,6 +22,7 @@ footer .information {
 }
 
 footer .information__block {
+  transition-duration: .3s;
 }
 
 footer .information__block img {
