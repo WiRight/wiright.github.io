@@ -6,4 +6,12 @@
 
 :root {
   --color-black: #111;
+
+  --color-footer-gray: #404447;
+  --color-footer-orange: #f4873e;
+}
+
+body {
+  margin: 0;
+  padding: 0;
 }
