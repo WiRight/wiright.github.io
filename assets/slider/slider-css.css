@@ -11,7 +11,7 @@ body{
 
 .mySlides{
     display: none;
-    background: url("../img/bg.png") no-repeat center/cover;
+    background: url("../img/bg1.png") no-repeat center/cover;
     height: 300px;
     width: 100%;
     position: absolute;
