@@ -2,7 +2,6 @@ body{
     margin: 0;
 }
 
-
 .slideshow-container{
     position: relative;
     margin: auto;
@@ -16,6 +15,7 @@ body{
     width: 100%;
     position: absolute;
 }
+
 
 .prev, .next{
     top: 115px;
