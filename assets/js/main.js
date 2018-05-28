@@ -5,5 +5,6 @@
  */
 
 $(document).ready(function () {
-  console.log('TOO: Сайт готов к работе')
+  console.log('TOO: Сайт готов к работе');
+  console.log('Добавим немного JS кода');
 })
