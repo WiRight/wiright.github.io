@@ -154,6 +154,9 @@ ul.top_menu > li:hover > div.submenu {
   width: 70px;
   height: 60px;
   background-color: var(--color-top-gray);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .buy img {
