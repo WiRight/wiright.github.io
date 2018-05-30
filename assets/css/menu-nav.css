@@ -1,0 +1,165 @@
+body {
+  font-family: Arial;
+}
+
+.location_and_infomation {
+  display: flex;
+  justify-content: space-between;
+  width: 610px;
+}
+
+.color {
+  background-color: var(--color-top-gray);
+}
+
+.top_navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.top_navigation a {
+  text-decoration: none;
+  color: #8B8B8B;
+}
+
+.top_information {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+}
+
+.location img {
+  width: 30px;
+  height: 50px;
+}
+
+.registration {
+  display: flex;
+  justify-content: space-between;
+  width: 350px;
+}
+
+.registration div {
+  display: flex;
+  align-items: center;
+}
+
+.registration img {
+  width: 30px;
+  height: 30px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+nav .top_menu {
+  display: flex;
+  justify-content: space-between;
+  width: 450px;
+  padding-left: 0;
+}
+
+.top_menu li {
+  list-style-type: none;
+}
+
+.paragraph:hover {
+  border-bottom: #f4873e 2px solid;
+}
+
+.paragraph {
+  text-transform: uppercase;
+}
+
+.top_menu a {
+  color: #3498DB;
+  text-decoration: none;
+  font-weight: bold;
+
+}
+
+div.submenu {
+  display: none;
+}
+
+.submenu h1 {
+  color: #6E6E6E;
+  text-transform: uppercase;
+}
+
+.submenu a {
+  color: #29ABE2;
+  line-height: 1.5;
+}
+
+.more a {
+  color: #6B6B6B;
+  font-weight: normal;
+}
+
+ul.top_menu > li:hover > div.submenu {
+  display: flex;
+  height: 250px;
+  width: 550px;
+  opacity: 0.95;
+  background-color: var(--color-top-gray);
+  position: absolute;
+  transition: all ease .3s;
+}
+
+.search {
+  border: 15px var(--color-top-gray) solid;
+  height: 30px;
+  display: flex;
+}
+
+.search input {
+  width: 300px;
+  height: 29px;
+  padding-left: 10px;
+  border: none;
+  outline: none;
+}
+
+.search img {
+  width: 30px;
+  height: 30px;
+}
+
+.logo img {
+  width: 140px;
+  height: 95px;
+}
+
+.logo div {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.buy {
+  width: 70px;
+  height: 60px;
+  background-color: var(--color-top-gray);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buy img {
+  width: 70px;
+  height: 45px;
+}
