@@ -4,10 +4,30 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="slider-css.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <style>
+      .slider-content {}
+      /* Кастомизация "точек" */
+      .slick-dots {
+        border: 1px solid red;
+      }
+    </style>
 </head>
 <body>
+  <div class="slick-slider">
+    <div class="slider-content">
+        <p>Поймай удачу на крючок</p>
+        <p>вместе с King Fishing</p>
+    </div>
+    <div class="slider-content">
+      Text
+    </div>
+    <div class="slider-content">
+      Text
+    </div>
+  </div>
 
-    <div class="slideshow-container">
+    <!-- <div class="slideshow-container">
         <div class="mySlides fade">
             <div class="text">
                 <p>Поймай удачу на крючок</p>
@@ -30,7 +50,10 @@
             <span class="dot" onclick="currentSlide(2)"></span>
             <span class="dot" onclick="currentSlide(3)"></span>
         </div>
-    </div>
-    <script src="slider-js.js"></script>
+    </div> -->
+    <!-- Все скрипты будут подключаться тут -->
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script type="text/javascript" src="slider-js.js"></script>
 </body>
 </html>

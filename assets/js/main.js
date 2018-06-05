@@ -4,6 +4,6 @@
  * например, инициализация данных (если понадобится)
  */
 
-$(document).ready(function () {
+$(document).ready(function() {
   console.log('TOO: Сайт готов к работе');
-})
+});
