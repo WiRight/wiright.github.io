@@ -1,7 +1,4 @@
-import bar from './bar'
 import main from './main'
+import basecss from '../css/base.scss'
 
 main();
-const a = bar();
-
-console.log('from bar', a);

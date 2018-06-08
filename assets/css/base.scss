@@ -1,0 +1,9 @@
+.content {
+  &__text {
+    color: #29ABE2;
+
+    &--underline {
+      text-decoration: underline;
+    }
+  }
+}
