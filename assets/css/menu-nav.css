@@ -176,6 +176,10 @@ header nav .nav_bar_block_menu_submenu ul {
   top: 0;
 }
 
+.nav_bar_block_menu_submenu li:last-child {
+  border-bottom: 2px dashed var(--color-menu-hardplate-blue);
+}
+
 .nav_bar_block_menu li:hover > ul {
   display: block;
   transition-duration: 3s;
