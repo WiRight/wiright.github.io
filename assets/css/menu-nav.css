@@ -1,5 +1,5 @@
 
-header .header_wapper{
+header .header_wapper {
   grid-template: 'wrapper';
   align-self: center;
   font-family: Arial, serif;
@@ -84,36 +84,39 @@ header nav .nav_bar_block_menu li {
   list-style-type: none;
 }
 
-header nav .nav_bar_block_menu_caption{
+header nav .nav_bar_block_menu_caption {
   width: 235px;
   height: 57px;
 }
 
-header nav .nav_bar_block_menu_caption img{
+header nav .nav_bar_block_menu_caption img {
   width: 15px;
 }
-header nav .nav_bar_block_menu_caption:hover img{
+
+header nav .nav_bar_block_menu_caption:hover img {
   transform: rotate(90deg);
 }
 
-header nav #style_caption_menu{
+header nav #style_caption_menu {
   background-color: var(--color-menu-pale-blue);
   border-bottom: var(--color-menu-blue) solid 3px;
 }
-header nav #style_caption_menu:hover{
+
+header nav #style_caption_menu:hover {
   background-color: var(--color-menu-blue);
 
 }
-header nav #style_caption_menu p{
+
+header nav #style_caption_menu p {
   color: white;
   font-size: 14pt;
 }
 
-header nav .nav_bar_block_menu_paragraph p{
+header nav .nav_bar_block_menu_paragraph p {
   font-size: 14pt;
 }
 
-header nav .nav_bar_block_menu_paragraph p{
+header nav .nav_bar_block_menu_paragraph p {
   text-transform: uppercase;
   text-align: center;
 }
@@ -140,24 +143,25 @@ header nav .nav_bar_block_menu__caption_submenu:hover {
   background-color: var(--color-menu-hardplate-blue);
 }
 
-header nav .nav_bar_block_menu__caption_submenu img{
+header nav .nav_bar_block_menu__caption_submenu img {
   display: none;
 }
-header nav .nav_bar_block_menu__caption_submenu:hover img{
+
+header nav .nav_bar_block_menu__caption_submenu:hover img {
   display: block;
   float: right;
   height: 25px;
   transform: rotate(-90deg);
 }
 
-header nav .nav_bar_block_menu_submenu ul{
+header nav .nav_bar_block_menu_submenu ul {
   padding-left: 0;
 }
 
-.nav_bar_block_menu li ul{
+.nav_bar_block_menu li ul {
   position: absolute;
   display: none;
-  padding: 10px  0 10px 0;
+  padding: 10px 0 10px 0;
   width: 234px;
   background-color: white;
   border-top: 1px solid var(--color-menu-hardplate-blue);
@@ -166,14 +170,15 @@ header nav .nav_bar_block_menu_submenu ul{
   border-left: 1px solid var(--color-menu-hardplate-blue);
 }
 
-.nav_bar_block_menu li > ul li ul{
+.nav_bar_block_menu li > ul li ul {
   right: -235px;
   position: absolute;
   top: 0;
 }
 
-.nav_bar_block_menu li:hover > ul{
+.nav_bar_block_menu li:hover > ul {
   display: block;
+  transition-duration: 3s;
 }
 
 header .nav_bar_search-icon {
