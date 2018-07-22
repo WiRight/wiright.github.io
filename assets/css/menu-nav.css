@@ -36,10 +36,6 @@ header .top_navigation__block_information_contacts {
   align-items: center;
 }
 
-header .top_navigation__block_location_contacts_number p {
-  !important; color: var(--color-menu-blue);
-}
-
 header .top_navigation__block_location {
   display: flex;
   justify-content: space-between;
@@ -128,10 +124,6 @@ header nav .nav_bar_block_menu a {
 
 }
 
-/*header div .nav_bar_block_menu_submenu {*/
-  /*!*display: none;*!*/
-/*}*/
-
 header nav .nav_bar_block_menu_submenu h1 {
   color: #6E6E6E;
   text-transform: uppercase;
@@ -159,17 +151,13 @@ header nav .nav_bar_block_menu__caption_submenu:hover img{
 }
 
 header nav .nav_bar_block_menu_submenu ul{
-  padding-left: 0px;
-}
-
-div.nav_bar_block_menu_submenu_level2{
-  display: none;
+  padding-left: 0;
 }
 
 .nav_bar_block_menu li ul{
   position: absolute;
   display: none;
-  padding: 10px  0px 10px 0px;
+  padding: 10px  0 10px 0;
   width: 234px;
   background-color: white;
   border-top: 1px solid var(--color-menu-hardplate-blue);
