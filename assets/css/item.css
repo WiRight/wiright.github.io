@@ -41,7 +41,7 @@ section .reviews_user_assessment {
   align-items: center;
 }
 
-section .reviews_user_assessment div{
+section .reviews_user_assessment div {
   width: 235px;
   text-align: center;
 }
@@ -52,18 +52,19 @@ section .reviews_user_rating {
   justify-content: center;
 }
 
-section .reviews_user_rating span{
+section .reviews_user_rating span {
   font-size: 20px;
   unicode-bidi: bidi-override;
   direction: rtl;
   color: black;
 }
+
 .reviews_user_rating > span {
   width: 1.1em;
 }
 
 section .reviews_user_rating > span:hover:before,
-section .reviews_user_rating > span:hover ~ span:before{
+section .reviews_user_rating > span:hover ~ span:before {
   content: "\2605";
   position: absolute;
   color: var(--color-footer-orange);
