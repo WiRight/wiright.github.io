@@ -1,5 +1,4 @@
 section .section_wapper {
-  grid-template: 'wrapper';
   align-self: center;
   font-family: Arial, serif;
   margin: 0 auto;
