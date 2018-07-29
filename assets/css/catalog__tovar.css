@@ -46,8 +46,8 @@ section{
 }
 
 .gray__text{
-  color: #959595 !important;
-  border-bottom: #959595 solid 2px !important;
+  color: #959595;
+  border-bottom: #959595 solid 2px;
 }
 
 .rigth{
