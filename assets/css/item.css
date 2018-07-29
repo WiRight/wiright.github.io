@@ -192,6 +192,7 @@ section .recurrent_block_price_block {
   float: right;
   background-color: #ffe2cf;
   color: #ff996f;
+  min-width: 90px;
   font-weight: bold;
   height: 35px;
   display: flex;
