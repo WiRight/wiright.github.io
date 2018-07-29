@@ -1,0 +1,40 @@
+{
+  "name": "wiright.github.io",
+  "version": "1.0.0",
+  "description": "It's a some freeline project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack -p --mode production",
+    "watch": "webpack --mode development --watch",
+    "start": "webpack-dev-server --mode development --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WiRight/wiright.github.io.git"
+  },
+  "author": "WiRight <ruslan.mahin1@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WiRight/wiright.github.io/issues"
+  },
+  "homepage": "https://wiright.github.io",
+  "dependencies": {
+    "jquery": "3.3.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^0.28.11",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "jshint": "^2.9.5",
+    "jshint-loader": "^0.8.4",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.3",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.11.1",
+    "webpack-cli": "^3.0.3",
+    "webpack-dev-server": "^3.1.4"
+  }
+}

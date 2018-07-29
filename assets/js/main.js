@@ -4,6 +4,8 @@
  * например, инициализация данных (если понадобится)
  */
 
-$(document).ready(function() {
-  console.log('TOO: Сайт готов к работе');
-});
+export default function () {
+  $(document).ready(() => {
+    console.log('TOO: Сайт готов к работе');
+  });
+}
