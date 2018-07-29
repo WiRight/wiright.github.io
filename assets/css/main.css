@@ -14,7 +14,14 @@
   --color-menu-hardplate-blue: #E1F1FE;
 }
 
-body {
+body, p, div {
   margin: 0;
   padding: 0;
 }
+
+
+.container{
+  width:1200px;
+  margin: 0 auto;
+}
+
