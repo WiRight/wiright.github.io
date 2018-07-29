@@ -20,12 +20,21 @@ section .reviews div {
 section #reviews_text_style {
   background-color: var(--color-menu-blue);
   width: 140px;
-  color: white;
   margin-left: 25px;
+}
+
+section #reviews_text_style a {
+  text-decoration: none;
+  color: white;
 }
 
 section .reviews_text {
   width: 235px;
+}
+
+section .reviews_text a {
+  text-decoration: none;
+  color: black;
 }
 
 section .reviews_user {
@@ -176,6 +185,7 @@ section .recurrent_block_price_whitecircle {
   height: 15px;
   border-radius: 50%;
   background-color: white;
+  margin: 10px;
 }
 
 section .recurrent_block_price_block {
@@ -183,10 +193,14 @@ section .recurrent_block_price_block {
   background-color: #ffe2cf;
   color: #ff996f;
   font-weight: bold;
-  width: 90px;
   height: 35px;
   display: flex;
   align-items: center;
   border-radius: 10px;
   justify-content: space-around;
 }
+
+section .recurrent_block_price_block_price {
+  padding-right: 10px;
+}
+
