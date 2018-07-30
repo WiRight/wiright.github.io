@@ -1,0 +1,207 @@
+section .section_wapper {
+  align-self: center;
+  font-family: Arial, serif;
+  margin: 0 auto;
+  width: 1200px;
+}
+
+section .reviews {
+  display: flex;
+  border-bottom: 3px solid var(--color-menu-blue);
+}
+
+section .reviews div {
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section #reviews_text_style {
+  background-color: var(--color-menu-blue);
+  width: 140px;
+  margin-left: 25px;
+}
+
+section #reviews_text_style a {
+  text-decoration: none;
+  color: white;
+}
+
+section .reviews_text {
+  width: 235px;
+}
+
+section .reviews_text a {
+  text-decoration: none;
+  color: black;
+}
+
+section .reviews_user {
+  height: 215px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+section .reviews_user_assessment {
+  display: flex;
+  align-items: center;
+}
+
+section .reviews_user_assessment div {
+  width: 235px;
+  text-align: center;
+}
+
+section .reviews_user_rating {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+section .reviews_user_rating span {
+  font-size: 20px;
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  color: black;
+}
+
+.reviews_user_rating > span {
+  width: 1.1em;
+}
+
+section .reviews_user_rating > span:hover:before,
+section .reviews_user_rating > span:hover ~ span:before {
+  content: "\2605";
+  position: absolute;
+  color: var(--color-footer-orange);
+}
+
+section .reviews_user_assessment_data {
+  color: #8B8B8B;
+  width: 110px;
+  font-size: 14px;
+  text-align: center;
+}
+
+section .reviews_user_assessment_block {
+  width: 620px;
+
+}
+
+section .reviews_user_assessment_block_text {
+  font-size: 14px;
+  margin-left: 20px;
+}
+
+section .reviews_user_assessment_block_input {
+  background-color: var(--color-top-gray);
+  height: 110px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 1165px;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+
+section .reviews_user_assessment_block_input_text {
+  display: flex;
+  align-items: center;
+  height: 15px;
+}
+
+section .reviews_user_assessment_block_input_text div {
+  width: 95px;
+  text-align: center;
+  font-size: 15px;
+  color: var(--color-menu-blue);
+}
+
+section .reviews_user_assessment_block_input_block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+section .reviews_user_assessment_block_input_reviews {
+  width: 1110px;
+  margin: 0 auto;
+  height: 25px;
+  padding-left: 10px;
+}
+
+section .reviews_user_assessment_block_input_button {
+  background-color: var(--color-menu-blue);
+  border: none;
+  outline: none;
+  width: 120px;
+  height: 25px;
+  margin-left: 21px;
+  color: white;
+}
+
+section .recurrent_text {
+  font-weight: bold;
+  width: 330px;
+  height: 25px;
+  border-bottom: 2px solid var(--color-menu-blue);
+}
+
+section .recurrent_product {
+  display: flex;
+  justify-content: space-between;
+  height: 310px;
+  align-items: center;
+}
+
+section .recurrent_block {
+  width: 230px;
+  height: 270px;
+  border: 2px solid var(--color-menu-hardplate-blue);
+  border-bottom: 4px solid var(--color-menu-blue);
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+section .recurrent_block_text {
+  font-weight: bold;
+  color: #959595;
+  font-size: 15px;
+  text-align: left;
+}
+
+section .recurrent_block_image img {
+  background: url("/assets/img/footer_bg.png") no-repeat;
+  width: 230px;
+  height: 185px;
+}
+
+section .recurrent_block_price_whitecircle {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: white;
+  margin: 10px;
+}
+
+section .recurrent_block_price_block {
+  float: right;
+  background-color: #ffe2cf;
+  color: #ff996f;
+  min-width: 90px;
+  font-weight: bold;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  justify-content: space-around;
+}
+
+section .recurrent_block_price_block_price {
+  padding-right: 10px;
+}
+
