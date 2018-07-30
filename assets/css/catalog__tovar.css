@@ -1,88 +1,89 @@
-section{
+section {
   width: 1200px;
   margin: 0 auto;
 }
 
-.flex{
+.flex {
   display: flex;
   justify-content: space-between;
 }
 
-.caption{
+.caption {
   font-weight: bold;
   font-size: 20px;
   color: #666666;
-  border-bottom: 2px solid #2196f3;
+  border-bottom: 2px solid var(--color-menu-blue);
 }
-.info__left p{
+
+.info__left p {
   width: 485px;
   padding: 20px;
   color: #8B8B8B;
   line-height: 1.25rem;
 }
 
-.info__left table{
+.info__left table {
   margin: 10px;
   border-collapse: collapse;
   width: 100%;
   padding: 10px 20px;
 }
 
-.info__left table tr{
+.info__left table tr {
   padding: 10px;
 }
 
-.info__left table tr > td:first-child{
+.info__left table tr > td:first-child {
   color: #2196f3;
   font-weight: bold;
 }
 
-.info__left table td{
+.info__left table td {
   padding: 5px;
 }
 
-.gray{
+.gray {
   background-color: #ebebeb;
 }
 
-.gray__text{
+.gray__text {
   color: #959595;
   border-bottom: #959595 solid 2px;
 }
 
-.rigth{
+.rigth {
   color: #8B8B8B;
   text-align: right;
 }
 
-.info__right{
-display: flex;
+.info__right {
+  display: flex;
 }
 
-.product{
+.product {
   display: flex;
   flex-direction: column;
 }
 
-.img{
+.img {
   margin: 10px 0;
-  border: #E1F1FE dashed 3px;
+  border: 3px dashed #E1F1FE;
   padding: 5px 30px;
 }
 
-.bottom_panel{
+.bottom_panel {
   display: flex;
   align-items: center;
 }
 
-.price{
+.price {
   color: #2196f3;
   font-weight: bold;
   font-size: 20px;
   margin-right: 20px;
 }
 
-.price__list{
+.price__list {
   align-items: center;
   display: flex;
   min-width: 90px;
@@ -95,7 +96,7 @@ display: flex;
   border-radius: 10px;
 }
 
-.circle{
+.circle {
   margin-right: 15px;
   width: 15px;
   height: 15px;
@@ -103,7 +104,7 @@ display: flex;
   border-radius: 50%;
 }
 
-.bottom{
+.bottom {
   text-transform: uppercase;
   padding: 10px 20px;
   font-size: 20px;
@@ -114,18 +115,18 @@ display: flex;
   margin-left: 90px;
 }
 
-.list{
+.list {
   margin: 0 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.list_item{
+.list_item {
   display: flex;
   flex-direction: column;
 }
 
-.list img{
+.list img {
   padding: 10px 15px;
 }
