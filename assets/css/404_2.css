@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container_404_2 {
+  margin: 0 auto;
+  width: 1200px;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+}
+
+.container_404_2 img{
+  height: 250px;
+}
+
+.text_title_404_2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.text_middle_404_2 {
+  font-size: 35px;
+}
+
+.text_pretitle_404_2 {
+  font-size: 20px;
+}
