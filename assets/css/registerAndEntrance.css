@@ -89,3 +89,22 @@ input[type="checkbox"].bulean {
 .windows_entrance_bottom a {
   border-bottom: 2px var(--color-menu-blue) solid;
 }
+
+.input_block {
+  flex-direction: column;
+}
+
+.input_error {
+  border-top: 1px solid red;
+  width: 390px;
+  visibility: hidden;
+}
+
+.input_error--showed {
+  visibility: visible;
+}
+
+.text_error {
+  color: red;
+  font-size: 12px;
+}
