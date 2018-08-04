@@ -1,0 +1,22 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container_404 {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.container_404 img {
+  width: 1200px;
+}
+
+.text_title_404 {
+  text-align: center;
+  font-size: 35px;
+}
+
+.text_pretitle_404 {
+  text-align: center;
+  font-size: 20px;
+}
