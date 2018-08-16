@@ -13,7 +13,7 @@
 }
 
 .windows_entrance {
-  top: -100%;
+  top: -150%;
   right: 0;
   left: 50%;
   z-index: 20;
@@ -24,6 +24,25 @@
   background: white;
   flex-direction: column;
   justify-content: space-around;
+}
+
+.windows_entrance_register {
+  top: -150%;
+  right: 0;
+  left: 50%;
+  z-index: 20;
+  width: 400px;
+  height: 575px;
+  padding: 15px;
+  position: fixed;
+  background: white;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.entrance:target + .windows_entrance_register {
+  left: 35%;
+  top: 2%;
 }
 
 .entrance:target + .windows_entrance {
@@ -51,7 +70,6 @@
 .title {
   width: 392px;
   height: 35px;
-  text-transform: uppercase;
   font-weight: bold;
   float: left;
   border-bottom: 2px solid var(--color-footer-orange);
@@ -59,7 +77,8 @@
 
 .input_infomation {
   width: 380px;
-  height: 50px;
+  height: 40px;
+  border-radius: 5px;
   border: 1px var(--color-top-gray) solid;
   padding-left: 10px;
   font-size: 15px;
@@ -70,12 +89,13 @@
   justify-content: flex-end;
 }
 
-.windows_entrance_bottom a {
+.windows_entrance_bottom p {
+  margin: 0;
   color: var(--color-footer-orange);
 }
 
 .button_input {
-  width: 390px;
+  width: 250px;
   height: 50px;
   padding: 0;
   border: none;
@@ -115,6 +135,7 @@ input[type="checkbox"].bulean {
   font-size: 12px;
 }
 
-.bottom_reg a {
+.bottom_reg p {
+  margin: 0;
   color: black;
 }
