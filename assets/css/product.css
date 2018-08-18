@@ -1,0 +1,134 @@
+.product-page {
+  height: 450px;
+  font-family: Arial, serif;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.ordering-product {
+  width: 600px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.ordering {
+  width: 395px;
+  height: 250px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.product-block {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 2px var(--color-top-gray) solid;
+  height: 100px;
+}
+
+.product-img img{
+  width: 75px;
+  height: 70px;
+}
+
+.name-product {
+  font-weight: bold;
+}
+
+.total-product {
+  display: flex;
+  width: 125px;
+}
+
+.total-product div {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  max-width: 80px;
+}
+
+.input_align {
+  width: 35px;
+  background-color: white;
+  border: none;
+  text-align: right;
+}
+
+.product-quantity {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 40px;
+  width: 100px;
+  border: 2px solid var(--color-top-gray);
+}
+
+.product-quantity button {
+  background-color: white;
+  color: var(--color-footer-orange);
+  border: none;
+  font-size: 20px;
+}
+
+.title-ordering-block {
+  font-weight: bold;
+  width: 360px;
+  margin: 0 auto;
+}
+
+.quantity_sum-ordering {
+  height: 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.quantity-ordering {
+  display: flex;
+  justify-content: space-between;
+  width: 360px;
+  margin: 0 auto;
+}
+
+.sum-ordering {
+  display: flex;
+  justify-content: space-between;
+  width: 360px;
+  margin: 0 auto;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.total-ordering {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 360px;
+  height: 40px;
+  margin: 0 auto;
+}
+
+.ordering-button {
+  text-align: center;
+}
+
+.ordering-button input {
+  background-color: var(--color-footer-orange);
+  color: white;
+  border: none;
+  width: 145px;
+  height: 40px;
+  font-size: 14px;
+}
+
+.total-ordering-sum {
+  font-size: 20px;
+}
