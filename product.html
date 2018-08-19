@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>KingFishing</title>
@@ -8,6 +8,7 @@
   <link rel="stylesheet" type="text/css" href="assets/css/footer.css">
   <link rel="stylesheet" type="text/css" href="assets/css/menu-nav.css">
   <link rel="stylesheet" type="text/css" href="assets/css/registerAndEntrance.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/product.css">
 </head>
 <body>
 <header>
@@ -17,7 +18,7 @@
         <div class="top_navigation__block">
           <div class="top_navigation__block_location">
             <a href="#">Краснодар</a>
-            <a href="#"><img src="assets/img/location.svg"></a>
+            <a href="#"><img alt="location" src="assets/img/location.svg"></a>
             <a href="#" class="top_navigation__block_location_contacts_number"><p>8(800)88-88-888</p></a>
           </div>
           <div class="top_navigation__block_information_contacts">
@@ -34,10 +35,16 @@
               <div class="input_block">
                 <div class="input_title">Адрес эллектронной почты(email)</div>
                 <input class="input_infomation" aria-label="E-mail" placeholder="Ваш email" type="email">
+                <div class="input_error">
+                  <div class="text_error">Неверный email</div>
+                </div>
               </div>
               <div class="input_block">
                 <div class="input_title">Пароль</div>
                 <input class="input_infomation" aria-label="Password" placeholder="Ваш пароль" type="password">
+                <div class="input_error">
+                  <div class="text_error">Упс..Пароль не верный</div>
+                </div>
               </div>
               <div class="input_block">
                 <div class="input_title">Телефон</div>
@@ -96,12 +103,12 @@
         <ul class="nav_bar_block_menu">
           <li id="style_caption_menu" class="nav_bar_block_menu_caption">
             <a href="#" class="nav_bar_block_menu_paragraph">
-              <p>Каталог товаров <img src="assets/img/icons/down-arrow.svg"></p>
+              <p>Каталог товаров <img alt="arrow" src="assets/img/icons/down-arrow.svg"></p>
             </a>
             <ul class="nav_bar_block_menu_submenu">
               <li class="nav_bar_block_menu__caption_submenu">
                 <a href="#">Рыболовные удочки
-                  <img src="assets/img/icons/down-arrow-blue.svg">
+                  <img alt="arrow" src="assets/img/icons/down-arrow-blue.svg">
                 </a>
                 <ul class="nav_bar_block_menu_submenu">
                   <div>
@@ -135,7 +142,7 @@
               </li>
               <li class="nav_bar_block_menu__caption_submenu">
                 <a href="#">Охотничьи изделия
-                  <img src="assets/img/icons/down-arrow-blue.svg">
+                  <img alt="arrow" src="assets/img/icons/down-arrow-blue.svg">
                 </a>
                 <ul class="nav_bar_block_menu_submenu">
                   <div>
@@ -186,22 +193,22 @@
               </li>
               <li class="nav_bar_block_menu__caption_submenu">
                 <a href="#">Новинки
-                  <img src="assets/img/icons/down-arrow-blue.svg">
+                  <img alt="arrow" src="assets/img/icons/down-arrow-blue.svg">
                 </a>
               </li>
               <li class="nav_bar_block_menu__caption_submenu">
                 <a href="#">Супердлинная категория
-                  <img src="assets/img/icons/down-arrow-blue.svg">
+                  <img alt="arrow" src="assets/img/icons/down-arrow-blue.svg">
                 </a>
               </li>
               <li class="nav_bar_block_menu__caption_submenu">
                 <a href="#">Ещё что нибудь
-                  <img src="assets/img/icons/down-arrow-blue.svg">
+                  <img alt="arrow" src="assets/img/icons/down-arrow-blue.svg">
                 </a>
               </li>
               <li class="nav_bar_block_menu__caption_submenu">
                 <a href="#">ЛОДКИ БЛЯДЬ
-                  <img src="assets/img/icons/down-arrow-blue.svg">
+                  <img alt="arrow" src="assets/img/icons/down-arrow-blue.svg">
                 </a>
               </li>
             </ul>
@@ -219,7 +226,7 @@
       <div class="nav_bar_search-icon">
         <input type="search" aria-label="search all" placeholder="Найдется всё">
         <a href="#">
-          <img src="assets/img/search.svg">
+          <img alt="search" src="assets/img/search.svg">
         </a>
       </div>
       <div class="nav_bar_buy-icon">
@@ -229,16 +236,188 @@
     </div>
   </div>
 </header>
-<section>
-  <div class="content">
-    content
-    <div class="content__text">
-      content__text
-      <div class="content__text--underline">content__text--underline</div>
+<section class="product-page">
+  <div class="container">
+    <div class="ordering-product">
+      <div class="product-block">
+        <div class="product-img">
+          <img alt="product" src="assets/img/katushka_scorana_exer_f_b.jpg">
+        </div>
+        <div class="name-product">
+          <p>Катушка Xerac Born 1500F</p>
+        </div>
+        <div class="product-quantity">
+          <button class="button_minus">
+            -
+          </button>
+          <input aria-label="number" class="input_align" type="number" value="1" disabled>
+          <button class="button_plus">
+            +
+          </button>
+        </div>
+        <div class="total-product">
+          <p>
+            Итого:
+          </p>
+          <div>
+            1000000 р
+          </div>
+        </div>
+      </div>
+      <div class="product-block">
+        <div class="product-img">
+          <img alt="product" src="assets/img/katushka_scorana_exer_f_b.jpg">
+        </div>
+        <div class="name-product">
+          <p>Катушка Xerac Born 1500F</p>
+        </div>
+        <div class="product-quantity">
+          <button class="button_minus">
+            -
+          </button>
+          <input aria-label="number" class="input_align" type="number" value="1" disabled>
+          <button class="button_plus">
+            +
+          </button>
+        </div>
+        <div class="total-product">
+          <p>
+            Итого:
+          </p>
+          <div>
+            10000 р
+          </div>
+        </div>
+      </div>
+      <div class="product-block">
+        <div class="product-img">
+          <img alt="product" src="assets/img/katushka_scorana_exer_f_b.jpg">
+        </div>
+        <div class="name-product">
+          <p>Катушка Xerac Born 1500F</p>
+        </div>
+        <div class="product-quantity">
+          <button class="button_minus">
+            -
+          </button>
+          <input aria-label="number" class="input_align" type="number" value="1" disabled>
+          <button class="button_plus">
+            +
+          </button>
+        </div>
+        <div class="total-product">
+          <p>
+            Итого:
+          </p>
+          <div>
+            10000 р
+          </div>
+        </div>
+      </div>
+      <div class="product-block">
+        <div class="product-img">
+          <img alt="product" src="assets/img/katushka_scorana_exer_f_b.jpg">
+        </div>
+        <div class="name-product">
+          <p>Катушка Xerac Born 1500F</p>
+        </div>
+        <div class="product-quantity">
+          <button class="button_minus">
+            -
+          </button>
+          <input aria-label="number" class="input_align" type="number" value="1" disabled>
+          <button class="button_plus">
+            +
+          </button>
+        </div>
+        <div class="total-product">
+          <p>
+            Итого:
+          </p>
+          <div>
+            10000 р
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="content__text--underline">content__text--underline</div>
+    <div class="ordering">
+      <div class="title-ordering-block">
+        Ваш заказ
+      </div>
+      <div class="quantity_sum-ordering">
+        <div class="quantity-ordering">
+          <div>Всего товаров</div>
+          <div class="bold">6 шт</div>
+        </div>
+        <div class="sum-ordering">
+          <div>Сумма</div>
+          <div class="bold">10000000000000 рублей</div>
+        </div>
+      </div>
+      <div class="total-ordering">
+        <div>К оплате</div>
+        <div class="total-ordering-sum">10000000000000 руб</div>
+      </div>
+      <div class="ordering-button">
+        <button aria-label="ordering-button"><a href="#win3">Оформить заказ</a></button>
+        <a href="#x" class="entrance" id="win3"></a>
+        <div class="windows_entrance_ordering">
+          <div class="contact-data">
+            <div class="windows_entrance_ordering-title">
+              <p>Контактные данные</p>
+            </div>
+            <div>
+              <div class="input-ordering-information">
+                <div>
+                  <input aria-label="name" type="text" placeholder="Имя*">
+                  <input aria-label="email" type="email" placeholder="email*">
+                </div>
+                <div>
+                  <input aria-label="phone" type="tel" placeholder="Телефон">
+                  <input aria-label="location" type="text" placeholder="Город*">
+                </div>
+              </div>
+              <div class="input-ordering-information-text">
+                <p>* Эти поля обязательны к заполнению</p>
+              </div>
+            </div>
+            <div class="contact-data-input-button">
+              <input class="button-back" aria-label="back" type="submit" value="Назад">
+              <input class="button-issue" aria-label="issue" type="submit" value="Оформить">
+            </div>
+            <div class="confidentiality">
+              <p>Нажимая на кпопку “Далее”, Вы соглашаетесь с условием <a href="#">политики конфиденциальности</a></p>
+            </div>
+          </div>
+          <div class="total-price">
+            <div class="price-block">
+              <div class="total-order">
+                <p>Ваш заказ</p>
+              </div>
+              <div class="composition-date">
+                <div class="composition">
+                  <div class="cd-text">Состав:</div>
+                  <div>192000 товара</div>
+                  <div>(100000000000Р)</div>
+                </div>
+                <div class="date">
+                  <div class="cd-text">Срок получения:</div>
+                  <div>12.08.2018</div>
+                </div>
+              </div>
+              <div class="price">
+                <span>Итого к оплате</span>
+                <span>100000000000000р</span>
+              </div>
+            </div>
+          </div>
+          <div>
+            <a class="close" title="Закрыть" href="#close"></a>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-  <br>
 </section>
 <footer>
   <div class="footer__wrapper">
