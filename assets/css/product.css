@@ -12,13 +12,13 @@
 
 .ordering-product {
   width: 600px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .ordering {
   width: 395px;
   height: 250px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -32,13 +32,9 @@
   height: 100px;
 }
 
-.product-img img{
+.product-img img {
   width: 75px;
   height: 70px;
-}
-
-.name-product {
-  font-weight: bold;
 }
 
 .total-product {
