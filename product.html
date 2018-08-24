@@ -9,6 +9,7 @@
   <link rel="stylesheet" type="text/css" href="assets/css/menu-nav.css">
   <link rel="stylesheet" type="text/css" href="assets/css/registerAndEntrance.css">
   <link rel="stylesheet" type="text/css" href="assets/css/product.css">
+  <script src="assets/js/counter.js"></script>
 </head>
 <body>
 <header>
@@ -247,11 +248,11 @@
           <p>Катушка Xerac Born 1500F</p>
         </div>
         <div class="product-quantity">
-          <button class="button_minus">
+          <button class="button_minus" onclick="minus()">
             -
           </button>
-          <input aria-label="number" class="input_align" type="number" value="1" disabled>
-          <button class="button_plus">
+          <input id="qty" aria-label="number" class="input_align qty" type="number" value="1">
+          <button class="button_plus" onclick="plus()">
             +
           </button>
         </div>
@@ -275,7 +276,7 @@
           <button class="button_minus">
             -
           </button>
-          <input aria-label="number" class="input_align" type="number" value="1" disabled>
+          <input aria-label="number" class="input_align" type="number" value="1">
           <button class="button_plus">
             +
           </button>
@@ -300,7 +301,7 @@
           <button class="button_minus">
             -
           </button>
-          <input aria-label="number" class="input_align" type="number" value="1" disabled>
+          <input aria-label="number" class="input_align" type="number" value="1">
           <button class="button_plus">
             +
           </button>
@@ -325,7 +326,7 @@
           <button class="button_minus">
             -
           </button>
-          <input aria-label="number" class="input_align" type="number" value="1" disabled>
+          <input aria-label="number" class="input_align" type="number" value="1">
           <button class="button_plus">
             +
           </button>

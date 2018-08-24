@@ -10,6 +10,10 @@
   justify-content: space-around;
 }
 
+.name-product {
+  width: 200px;
+}
+
 .ordering-product {
   width: 600px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -53,7 +57,16 @@
   width: 35px;
   background-color: white;
   border: none;
-  text-align: right;
+  text-align: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+input[type='number'] {
+  -moz-appearance: textfield;
 }
 
 .product-quantity {
